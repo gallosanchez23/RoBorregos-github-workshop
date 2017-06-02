@@ -1,9 +1,9 @@
 # <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png" width="40px" height="40px"/> Github - RoBorregos Workshop
 
-Git es una herramineta o sistema útil para el manejo de versiones dentro de un proyecto. Github es una especie
-de red socual basada en Git relacionado con el almacenamiento de proyectos y con el desarrollo colaborativo.
+Git es una herramienta o sistema útil para el manejo de versiones dentro de un proyecto. Github es una especie
+de red social basada en Git relacionado con el almacenamiento de proyectos y con el desarrollo colaborativo.
 Github se caracteriza también por ser una herramienta y tener un servicio libre de paga, sin embargo, es posible
-adquirir una cuenta con proyectos privados.
+adquirir una cuenta con repositorios privados.
 
 Sin embargo, así como Github nos puede ofrecer un enorme beneficio y ser un gran aliado de trabajo, también,
 debido a un empleo no adecuado, puede terminar por revolver y crear un caos en nuestros proyectos.
@@ -15,16 +15,6 @@ github en nuestro equipo, posteriormente crearemos una cuenta en github, configu
 en un proyecto, conoceremos los comandos en terminal para el trabajo colaborativo, realizaremos un ejercicio de
 proyecto en equipo, hablaremos sobre una herramienta extra que nos facilitará aún más el trabajar en Github y
 finalmente veremos los estándares que seguiremos dentro de la organización de RoBorregos en Github.
-
-
-* conceptos básicos que se requieren para utilizar la herramienta Github
-* uno de los estándares más utilizados a nivel profecional
-* crearemos una cuenta en github
-* configuraremos nuestra cuenta para colaborar en un proyecto
-* conoceremos los comandos en terminal para el trabajo colaborativo
-* realizaremos un ejercicio de proyecto en equipo
-* hablaremos sobre una herramienta extra que nos facilitará aún más el trabajar en Github
-* veremos los estándares que seguiremos dentro de la organización de RoBorregos en Github.
 
 ![git!=github](http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s800/Github2.png)
 
@@ -97,7 +87,7 @@ instalación:
 
 [Git para Windows](https://git-scm.com/download/win)
 
-Dentro de las opciones de instalación les ofrecerá instalar Git Bash, lo cual es lo más recomendable, ya que será la
+Dentro de las opciones de instalación te ofrecerá instalar Git Bash, lo cual es lo más recomendable, ya que será la
 terminal que emplearemos para trabajar y comunicarnos con Github.
 
 
@@ -154,4 +144,77 @@ Finalmente selecciona la opción de **Add SSH key**.
 
 
 
+
+## Git en terminal.
+
+Primeramente conoceremos los comandos para configurar nuestra cuenta de Github en terminal:
+
+```shell
+$ git config --global user.name 'Nombre y apellido'
+$ git config --global user.email 'email@roborregos.mx'
+```
+
+Una vez que nos hayamos presentado con Git por medio de nuestra terminal, primeramente conoceremos los comandos básicos
+para las acciones relacionadas con iniciar un repositorio desde cero, branching y el manejo de versiones dentro del repositorio
+y posteriormente comandos que nos facilitarán la colaboración de varios miembros de un equipo dentro de dicho repositorio.
+
+
+#### Inicializar un repositorio
+
+Para empezar un repositorio dentro de github vamos a trabajar tanto en terminal como en el navegador. El primer paso para
+esto será entrar en nuestro navegador al sitio oficial de **[github](https://github.com)** y dar click sobre el botón de nuevo
+repositorio:
+![New Repository Button](./images/new_repository_btn.png)
+
+Este botón nos llevará a la pantalla de creación de un repositorio nuevo, donde elegiremos el nombre, insertaremos la descripción
+y decidiremos si queremos que nuestro repositorio sea público o provado. Finalmente, la última sección de esta vista nos ofrece la
+opción de inicializar el repositorio con un archivo README o sin él. Existen dos opciones para crear un repositorio nuevo, enlazar
+un proyecto existente en alguna carpeta local, o inicializar un repositorio vacío en donde posteriormente crearemos un nuevo proyecto.
+Para la primera opción en la que enlazaremos un proyecto local existente, no se debe seleccionar el checkbox, es decir que no
+inicializaremos nuestro repositorio con un README. En caso de no querer enlazar un proyecto local con el nuevo repositorio, es
+recomendable seleccionar la opción de inicializar el repositorio con un README, de esta forma se creará un repositorio listo para ser
+clonado.
+
+
+#### Enlazar un proyecto existente
+
+Una vez creado nuestro reposotiro dentro de github sin un README, el siguiente paso será enlazar un proyecto local con el repositorio
+ya existente. Para esto, el primer paso que debemos realizar es ubicarnos en el directorio del proyecto desde la terminal y
+utilizaremos los siguientes comandos.
+
+```shell
+$ git init
+```
+para inicializar el directorio como un proyecto de git.
+
+```shell
+$ git add .
+$ git commit -m 'Initial commit'
+```
+para agregar todos los archivos existentes en el proyecto a un commit inicial.
+
+```shell
+$ git remote add origin "repository URL"
+```
+para agregar el enlace entre el repositorio creado en github y el directorio local del proyecto previamente inicializado en git.
+Sustituye "repository URL" con el url proporcionado por tu repositorio, ya sea SSH o HTTPS.
+
+```shell
+$ git push -u origin master
+```
+para finalmente subir los archivos de tu proyecto local al repositorio.
+
+
+#### Clonar un repositorio
+
+En caso de tener un repositorio existente con un proyecto en el que se quiere trabajar, será necesario crear una copia local en la
+cual poder seguir con el desarrollo y posteriormente subir los cambios realizados al repositorio, para lo que requeriremos "clonar"
+el proyecto, lo cual no es complicado de realizar. El primer paso será colocarte por medio de la terminal en el directorio donde se
+desea guardar el proyecto, y posteriormente ingresar el siguiente comando que simplemente clonará el proyecto dentro del repositorio
+deseado
+
+```ruby
+$ git clone "repository URL"
+```
+en donde "repository URL" será el url SSH proporcionado por tu repositorio.
 
