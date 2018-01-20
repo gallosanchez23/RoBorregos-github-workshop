@@ -9,8 +9,8 @@ Bienvenido a al entrenamiento de RoBorregos sobre Github. Las guías en este rep
 
 * [¿Qué es Git y Github?](WHAT_IS_GITHUB.md)
 * [Concéptos básicos.](BASIC_CONCEPTS.md)
-* [Estándar de branching.](BANCHING_STANDARD.md)
-* [Instalación de Github.](INTALLING_GITHUB.md)
+* [Estándar de branching.](BRANCHING_STANDARD.md)
+* [Instalación de Github.](INSTALLING_GITHUB.md)
 * [Creación y configuración de usuario.](USER_CREATION_AND_CONFIGURATION.md)
 * [Github gráfico.](GRAPHIC_GITHUB.md)
 * [Git en terminal.](GIT_IN_TERMINAL.md)
