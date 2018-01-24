@@ -1,17 +1,15 @@
-## Instalación de Github.
+# Instalación de Git.
 
-#### Windows
+### Windows
 
-Para instalar en un equipo con Windows deberás entrar a la siguiente liga para inciar la descarga y posteriomente la
-instalación:
+Para instalar en un equipo con Windows deberás entrar a la siguiente liga para inciar la descarga de la versión más actualizada de Git y posteriomente la instalación:
 
 [Git para Windows](https://git-scm.com/download/win)
 
-Dentro de las opciones de instalación te ofrecerá instalar Git Bash, lo cual es lo más recomendable, ya que será la
-terminal que emplearemos para trabajar y comunicarnos con Github.
+Dentro de las opciones de instalación te ofrecerá instalar Git Bash, lo cual es lo más recomendable, ya que será la terminal que utilizarás para trabajar y comunicarnos con Github.
 
 
-#### Linux
+### Linux
 
 Ingresar los siguientes comandos en terminal:
 
@@ -22,7 +20,7 @@ $ sudo apt-get install git
 ```
 
 
-#### OSX
+### OSX
 
 Ingresar los siguientes comandos en terminal:
 
