@@ -1,4 +1,4 @@
-## Conflictos
+# Conflictos
 
 Un conflicto en Git ocurre cuando dos personas cambian una misma línea en un archivo, o bien una lo borró mientras que la otra hizo modificaciones y después de esto se intenta hacer un “Merge”. Básicamente Git no sabe con cuál de las dos versiones debería quedarse, ya que en ambas versiones se modificó el mismo elemento.
 
