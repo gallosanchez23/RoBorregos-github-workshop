@@ -1,19 +1,9 @@
-# ¿Qué es Git y Github?
+# ¿Qué son Git y Github?
 
-Git es una herramienta o sistema útil para el manejo de versiones dentro de un proyecto. Github es una especie
-de red social basada en Git relacionado con el almacenamiento de proyectos y con el desarrollo colaborativo.
-Github se caracteriza también por ser una herramienta y tener un servicio libre de paga, sin embargo, es posible
-adquirir una cuenta con repositorios privados.
+**Git** es un software enfocado al control de versiones dentro de proyectos. Es una de las herramientas más utilizadas en proyectos a nivel profesional, a partir de la cual han surgido una serie de frameworks de la misma naturaleza durante la última década. Posterior a esto, es creada una red social basada en el sistema de Git llamada **Github**, que tiene como principal objetivo aprovechar dicha herramienta en un ambiente de desarrollo colaborativo sobre proyectos alojados en la misma red social, a los que se les llama **Repositorios**.
 
-Sin embargo, así como Github nos puede ofrecer un enorme beneficio y ser un gran aliado de trabajo, también,
-debido a un empleo no adecuado, puede terminar por revolver y crear un caos en nuestros proyectos.
-Es debido a esto que se han establecido diferentes estándares de organización para el desarrollo con Github.
+Uno de los principales aspectos por los que Github se ha caracterizado es su gran contribución al llamado **Open Source** *(Código Libre)*, debido a que los repositorios que aloja son públicos para consulta, sin dejar que cualquier usuario pueda modificarlos (claro está), por lo que pasa a ser una herramienta libre de paga. Sin embargo, existe la posibilidad de adquirir repositorios privados por medio de un costo.
 
-Dentro de este pequeño taller aprenderemos los conceptos básicos que se requieren para utilizar la herramienta
-Github, así como uno de los estándares más utilizados a nivel profesional, para comenzar con la práctica instalaremos
-github en nuestro equipo, posteriormente crearemos una cuenta en github, configuraremos nuestra cuenta para colaborar
-en un proyecto, conoceremos los comandos en terminal para el trabajo colaborativo, realizaremos un ejercicio de
-proyecto en equipo, hablaremos sobre una herramienta extra que nos facilitará aún más el trabajar en Github y
-finalmente veremos los estándares que seguiremos dentro de la organización de RoBorregos en Github.
+Ahora bien, así como Git es una herramienta muy poderosa para el manejo de versiones, y Github una red social muy útil para el desarrollo de proyectos colaborativos, también, en un caso en el que no sean utilizados de forma adecuada, pueden llegar a generar grandes conflictos, revolver y crear un caos en nuestros proyectos, y por ende, perder mucho tiempo en recuperar el desarrollo que en verdad es útil. Debido a esto es que se han diseñado y establecido diferentes estándares de organización para el desarrollo con estás grandes herramientas, dentro de los cuales se encuentra el que discutiremos más adelante.
 
 ![git!=github](http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s800/Github2.png)
