@@ -8,7 +8,7 @@ Primero que nada, para colaborar dentro de proyectos, crear nuestros propios rep
 
 <br>
 
-Una vez que ya poseas una cuenta de Github, podrás comenzar la fase de configuración de las credenciales requeridas para colaborar en repostorios ajenos. Esta configuración consiste básicamente en la generación de una clave pública [SSH](https://www.ssh.com/ssh/key/) (en caso de no tener ya una) y darla de alta en Github. La función de una clave pública SSH es similar al a de un nombre de usuario y contraseña: la autentificación de tu ordenador ante diferentes servicios automatizados, en este caso Github, con el fin de saber que eres tu quien está realizando cambios a un repositorio.
+Una vez que ya poseas una cuenta de Github, podrás comenzar la fase de configuración de las credenciales requeridas para colaborar en repostorios ajenos. Esta configuración consiste básicamente en la generación de una clave pública [SSH](https://www.ssh.com/ssh/key/) (en caso de no tener ya una) y darla de alta en Github. La función de una clave pública SSH es similar a la de un nombre de usuario y contraseña: la autentificación de tu ordenador ante diferentes servicios automatizados, en este caso Github, con el fin de saber que eres tu quien está realizando cambios a un repositorio.
 
 <br>
 
