@@ -14,6 +14,7 @@ Bienvenido al entrenamiento de RoBorregos sobre Github. Las guías en este repos
 * [Creación y configuración de usuario.](USER_CREATION_AND_CONFIGURATION.md)
 * [Github gráfico.](GRAPHIC_GITHUB.md)
 * [Git en terminal.](GIT_IN_TERMINAL.md)
+* [Conflictos en Git.](CONFLICTS_RESOLUTION.md)
 
 
 
