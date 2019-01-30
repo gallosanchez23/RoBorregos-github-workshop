@@ -1,0 +1,9 @@
+# ¿Qué son Git y Github?
+
+**Git** es un software enfocado al control de versiones dentro de proyectos. Es una de las herramientas más utilizadas en proyectos a nivel profesional, a partir de la cual han surgido una serie de frameworks de la misma naturaleza durante la última década. Posterior a esto, es creada una red social basada en el sistema de Git llamada **Github**, que tiene como principal objetivo aprovechar dicha herramienta en un ambiente de desarrollo colaborativo sobre proyectos alojados en la misma red social, a los que se les llama **Repositorios**.
+
+Uno de los principales aspectos por los que Github se ha caracterizado es su gran contribución al llamado **Open Source** *(Código Libre)*, debido a que los repositorios que aloja son públicos para consulta, sin dejar que cualquier usuario pueda modificarlos (claro está), por lo que pasa a ser una herramienta libre de paga. Sin embargo, existe la posibilidad de adquirir repositorios privados por medio de un costo.
+
+Ahora bien, así como Git es una herramienta muy poderosa para el manejo de versiones, y Github una red social muy útil para el desarrollo de proyectos colaborativos, también, en un caso en el que no sean utilizados de forma adecuada, pueden llegar a generar grandes conflictos, revolver y crear un caos en nuestros proyectos, y por ende, perder mucho tiempo en recuperar el desarrollo que en verdad es útil. Debido a esto es que se han diseñado y establecido diferentes estándares de organización para el desarrollo con estás grandes herramientas, dentro de los cuales se encuentra el que discutiremos más adelante.
+
+![git!=github](http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s800/Github2.png)
